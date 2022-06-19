@@ -2,15 +2,15 @@
 
 version: 2
 updates:
-  - package-ecosystem: "yarn"
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
     # Specify labels for npm pull requests
     labels:
       - "dependencies"
-   open-pull-requests-limit: 10
-   reviewers:
+    open-pull-requests-limit: 10
+    reviewers:
       - "anttibull"
       - "sashalavrus"
       - "parovozik787"
