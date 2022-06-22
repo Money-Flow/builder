@@ -1,5 +1,7 @@
 import React from "react";
 
+// TODO: remove ts-ignore
+// @ts-ignore
 import logo from "logo.svg";
 import "App.css";
 
