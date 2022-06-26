@@ -114,8 +114,8 @@ jobs:
             - name: Run typescript compile
               run: yarn tsc --noEmit
 
-    build:
-        name: Build
+    build-and-deploy:
+        name: Build & Deploy
         needs: [install]
         runs-on: ubuntu-latest
         continue-on-error: false
@@ -133,3 +133,8 @@ jobs:
 
             - name: Build TS application
               run: yarn build
+
+            - name: Deploy 🚀
+              uses: JamesIves/github-pages-deploy-action@v4
+              with:
+                folder: build # The folder the action should deploy.
