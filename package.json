@@ -54,6 +54,7 @@
     "eslint-plugin-prettier": "^4.1.0",
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^8.0.0",
     "prettier": "^2.6.2",
     "stylelint": "^14.9.0",
     "stylelint-config-prettier": "^9.0.3",
@@ -61,7 +62,6 @@
     "stylelint-config-standard": "^26.0.0",
     "stylelint-order": "^5.0.0",
     "stylelint-prettier": "^2.0.0",
-    "stylelint-scss": "^4.2.0",
-    "husky": "^8.0.0"
+    "stylelint-scss": "^4.2.0"
   }
 }
